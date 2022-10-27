@@ -7,6 +7,7 @@ import parse from 'connection-string';
 const connectionLimit = parseInt(process.env.CONNECTION_LIMIT || '5');
 
 // @ts-ignore
+// NOTE(zzuziak): DATABASE_URL is the same as for snapshot-webhook
 const config = parse(process.env.DATABASE_URL);
 config.connectionLimit = connectionLimit;
 config.multipleStatements = true;
