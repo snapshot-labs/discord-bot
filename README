@@ -1,0 +1,39 @@
+<div align="center">
+    <img src="https://raw.githubusercontent.com/snapshot-labs/snapshot/develop/public/icon.svg" height="70" alt="Snapshot Logo">
+    <h1>Snapshot - Discord Bot</h1>
+    <strong>
+      This is a Discord Bot for Snapshot.
+    </strong>
+</div>
+<br>
+<div align="center">
+    <img src="https://img.shields.io/github/commit-activity/w/snapshot-labs/snapshot-hub" alt="GitHub commit activity">
+    <a href="https://github.com/snapshot-labs/snapshot-hub/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22">
+        <img src="https://img.shields.io/github/issues/snapshot-labs/snapshot-hub/help wanted" alt="GitHub issues help wanted">
+    </a>
+    <a href="https://telegram.snapshot.org">
+        <img src="https://img.shields.io/badge/Telegram-white?logo=telegram" alt="Telegram">
+    </a>
+    <a href="https://discord.snapshot.org">
+        <img src="https://img.shields.io/discord/707079246388133940.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2" alt="Discord">
+    </a>
+    <a href="https://twitter.com/SnapshotLabs">
+        <img src="https://img.shields.io/twitter/follow/SnapshotLabs?label=SnapshotLabs&style=flat&logo=twitter&color=1DA1F2" alt="Twitter">
+    </a>
+</div>
+
+
+### Development
+
+#### Install dependencies
+```bash
+yarn
+```
+
+#### Run locally
+```bash
+yarn dev
+```
+
+### License
+[MIT](LICENSE).
